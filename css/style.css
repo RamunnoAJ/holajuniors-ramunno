@@ -149,6 +149,10 @@ h4 {
   max-width: 60rem;
 }
 
+.max-w-xs {
+  max-width: 5rem;
+}
+
 a {
   text-decoration: none;
 }
@@ -279,4 +283,20 @@ section {
 .work-grid__content a:first-child img {
   border-radius: 1rem;
   height: 385px;
+}
+
+footer {
+  padding-block: 8rem;
+}
+
+footer .flex-column {
+  gap: 4rem;
+}
+
+.footer__content {
+  margin: 4rem 0;
+}
+
+.footer__icons a {
+  margin-inline: 1rem;
 }
