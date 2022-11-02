@@ -73,6 +73,10 @@ h4 {
   color: var(--clr-primary-500);
 }
 
+.text-white {
+  color: #fff;
+}
+
 .bg-accent-400 {
   background-color: var(--clr-accent-400);
 }
@@ -139,6 +143,10 @@ h4 {
 
 .lh-500 {
   line-height: 1.5;
+}
+
+.max-w-lg {
+  max-width: 60rem;
 }
 
 a {
@@ -245,4 +253,30 @@ section {
   .skills-grid {
     grid-template-columns: repeat(3, 1fr);
   }
+}
+
+.work-grid {
+  padding-block: 4rem;
+  display: grid;
+  gap: 4rem;
+}
+
+@media (min-width: 80rem) {
+  .work-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.work-grid__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+@media (min-width: 80rem) {}
+
+.work-grid__content a:first-child img {
+  border-radius: 1rem;
+  height: 385px;
 }
